@@ -1,6 +1,8 @@
+import cls from './ProFile.module.css';
+
 const ProFile = () => {
 	return (
-		<div className='content'>
+		<div className={cls.content}>
 			<div>
 			<img src='https://www.topgear.com/sites/default/files/cars-car/image/2022/11/mini%20countryman.jpeg?w=1280&h=720' alt='rozaBl'/>
 			</div>
@@ -12,9 +14,9 @@ const ProFile = () => {
 				<div>
 					New post
 				</div>
-				<div>
-					<div>post 1</div>
-					<div>post 2</div>
+				<div className={cls.posts}>
+					<div className={cls.item}>post 1</div>
+					<div className={`${cls.item} ${cls.active}`}>post 2</div>
 				</div>
 			</div>
 		</div>

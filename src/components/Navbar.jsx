@@ -1,10 +1,12 @@
+import cls from './Navbar.module.css';
+
 const Navbar = () => {
 	return (
-		<nav className='nav'>
-			<div><a href='#f'>ProFile</a></div>
-			<div><a href='#w'>Messang</a></div>
-			<div><a href='#r'>News</a></div>
-			<div><a href='#t'>Music</a></div>
+		<nav className={cls.nav}>
+			<div><a className={cls.item} href='#f'>ProFile</a></div>
+			<div><a className={cls.item} href='#w'>Messang</a></div>
+			<div><a className={cls.item} href='#r'>News</a></div>
+			<div><a className={cls.item} href='#t'>Music</a></div>
 		</nav>
 	)
 }
