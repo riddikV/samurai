@@ -1,0 +1,13 @@
+.nav {
+	grid-area: n;
+	background-color: aqua;
+}
+
+.lolckek {
+	font-size: 40px;
+}
+
+.item{
+	text-decoration: none;
+	color: #fff;
+}
